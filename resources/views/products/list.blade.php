@@ -19,7 +19,7 @@
                     <td>{{ $product->title }}</td>
                     <td>{{ str_limit($product->description, 50) }}</td>
                     @if($product->type_price == 'promo')
-                    <td>Promo Price</td>
+                    <td>Sale Price</td>
                     <td>
                         <span>{{ $product->special_price }}</span>
                         <span style="text-decoration:line-through">{{ $product->old_price }}</span>

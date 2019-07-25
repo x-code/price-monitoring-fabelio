@@ -8,7 +8,7 @@
                 <img src="{{ $product->images }}" class="img-responsive" style="width: 100%">
             </div>
             @if($product->type_price == 'promo')
-            <h2>Promo Price</h2>
+            <h2>Promo Sale</h2>
             <h4 class="card-title">
                 <span>{{ $product->special_price }}</span> 
                 <span style="text-decoration:line-through">{{ $product->old_price }}</span>
