@@ -13,7 +13,7 @@
                 <span>{{ $product->special_price }}</span> 
                 <span style="text-decoration:line-through">{{ $product->old_price }}</span>
             </h4>
-            @else($product->type_pric == 'flat')
+            @else($product->type_price == 'flat')
             <h4 class="card-title">{{ $product->price }}</h4>
             @endif
             <div class="card-text">
