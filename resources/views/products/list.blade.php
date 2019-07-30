@@ -24,13 +24,14 @@
                         <span>{{ $product->special_price }}</span>
                         <span style="text-decoration:line-through">{{ $product->old_price }}</span>
                     </td>
-                    @else($product->type_pric == 'flat')
+                    @else($product->type_price == 'flat')
                     <td>Regular Price</td>
                     <td>{{ $product->price }}</td>
                     @endif
                     
                     <td>
-                        <a href="{{ route('product.detail', [$product->id]) }}" class="btn btn-primary">Detail</button>
+                        <a href="{{ route('product.detail', [$product->id]) }}" class="btn btn-primary">Detail</button><p><a href="{{ $product->link_url }}">Source</a>
+                        <a href="{{ $product->link_url }}" class="btn btn-warning">Source</a>
                     </td>
                 </tr>
             @empty

@@ -3,7 +3,7 @@
 <div class="container text-center">
     <div class="card card-width">
         <div class="card-body">
-            <h3 class="card-title">{{ $product->title }}</h3>
+            <h3 class="card-title"><a href="{{ $product->link_url }}">{{ $product->title }}</a></h3>
             <div class="card-text">
                 <img src="{{ $product->images }}" class="img-responsive" style="width: 100%">
             </div>
@@ -19,6 +19,7 @@
             <div class="card-text">
                 <p>Description: </p>
                 <p>{{ $product->description }}</p>
+                <p><a href="{{ $product->link_url }}" class="btn btn-warning">Source</a></p>
             </div>
             
             <div class="card">
