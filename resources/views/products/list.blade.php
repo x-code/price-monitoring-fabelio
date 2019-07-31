@@ -30,7 +30,7 @@
                     @endif
                     
                     <td>
-                        <a href="{{ route('product.detail', [$product->id]) }}" class="btn btn-primary">Detail</button><p><a href="{{ $product->link_url }}">Source</a>
+                        <a href="{{ route('product.detail', [$product->id]) }}" class="btn btn-primary">Detail</button>
                         <a href="{{ $product->link_url }}" class="btn btn-warning">Source</a>
                     </td>
                 </tr>
