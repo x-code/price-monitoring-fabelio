@@ -4,14 +4,14 @@
   <title>Fabelio - Price Monitoring</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/dataTables.bootstrap.min.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-  <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
-  <script src="{{ asset('js/jquery.min.js') }}"></script>
-  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('js/datatables.min.js') }}"></script>
-<script type='text/javascript' src="{{ asset('js/list.js') }}"></script>
+  <link rel="stylesheet" href="{{ secure_asset('css/bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('css/dataTables.bootstrap.min.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('css/style.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('css/font-awesome.min.css') }}">
+  <script src="{{ secure_asset('js/jquery.min.js') }}"></script>
+  <script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+<script type='text/javascript' src="{{ secure_asset('js/datatables.min.js') }}"></script>
+<script type='text/javascript' src="{{ secure_asset('js/list.js') }}"></script>
 </head>
 <body>
 
